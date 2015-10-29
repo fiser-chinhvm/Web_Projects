@@ -1,0 +1,87 @@
+@font-face {
+	font-family: chinh;
+	src: url(chinh.woff2);
+}
+h1{
+    color:white;
+    text-align: center;
+}
+body {
+    background: url('background.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: chinh;
+}
+
+.error{
+    color:red;
+}
+
+.login-block {
+    width: 320px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: 500px
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 310px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: chinh;
+    padding-left:42px;
+    outline: none;
+}
+
+#username {
+    background: #fff url('user.png') 14px no-repeat;
+    background-size: 15px 15px;
+}
+
+#username:focus {
+    background: #fff url('userfocus.png') 14px no-repeat;
+    background-size: 15px 15px;
+}
+
+#password {
+    background: #fff url('pass.png') 14px no-repeat;
+    background-size: 15px 15px;
+}
+
+#password:focus {
+    background: #fff url('passfocus.png') 14px no-repeat;
+    background-size: 15px 15px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #15C70C;
+}
+
+.login-block button {
+    width: 310px;
+    height: 42px;
+    background: #13F507;
+    border-radius: 5px;
+    border: 1px solid #6DF50A;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: chinh;
+    outline: none;
+}
+
+.login-block button:hover {
+    background: #6DF50A;
+}
